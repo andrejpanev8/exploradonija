@@ -63,6 +63,7 @@ public class SecurityConfig {
         configuration.addAllowedOrigin("http://localhost");
         configuration.addAllowedOrigin("http://localhost:5173");
         configuration.addAllowedOrigin("http://127.0.0.1:5173");
+	configuration.addAllowedOrigin("http://explorandija.local");
         configuration.addAllowedMethod("*");
         configuration.addAllowedHeader("*");
         configuration.setAllowCredentials(true);

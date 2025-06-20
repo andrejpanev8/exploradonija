@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8080/api'; // Adjust if your backend runs on a different port
+const API_BASE_URL = 'http://explorandija.local/api'; // Adjust if your backend runs on a different port
 
 // Helper function for API requests
 const request = async (url, options = {}) => {
