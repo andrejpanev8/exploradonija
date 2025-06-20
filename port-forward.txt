@@ -1,0 +1,1 @@
+kubectl port-forward svc/backend 8080:8080 -n explorandija
